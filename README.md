@@ -47,31 +47,39 @@ The system performs all CRUD operations, includes **data validation**, **error h
 
 ## 🧠 Project Architecture
 
-src/main/java/com/akash/owlAi/
-│
-├── controller/ # REST API endpoints
-│ └── UserController.java
-│
-├── dto/ # Data Transfer Objects
-│ ├── UserDTO.java
-│ └── UserResponseDTO.java
-│
-├── entity/ # JPA entity class
-│ └── User.java
-│
-├── exception/ # Custom exceptions and global handler
-│ ├── DuplicateResourceException.java
-│ ├── ResourceNotFoundException.java
-│ └── GlobalExceptionHandler.java
-│
-├── repository/ # Repository interface for DB operations
-│ └── UserRepository.java
-│
-├── service/ # Business logic layer
-│ ├── UserService.java
-│ └── UserServiceImpl.java
-│
-└── OwlAiInternshipTaskApplication.java
+## 🧱 Project Structure
+
+```bash
+src
+└── main
+    └── java
+        └── com
+            └── akash
+                └── owlAi
+                    ├── controller/               # REST API endpoints
+                    │   └── UserController.java
+                    │
+                    ├── dto/                      # Data Transfer Objects
+                    │   ├── UserDTO.java
+                    │   └── UserResponseDTO.java
+                    │
+                    ├── entity/                   # JPA entity class
+                    │   └── User.java
+                    │
+                    ├── exception/                # Custom exceptions & global handler
+                    │   ├── DuplicateResourceException.java
+                    │   ├── ResourceNotFoundException.java
+                    │   └── GlobalExceptionHandler.java
+                    │
+                    ├── repository/               # Repository interface (JPA)
+                    │   └── UserRepository.java
+                    │
+                    ├── service/                  # Business logic layer
+                    │   ├── UserService.java
+                    │   └── UserServiceImpl.java
+                    │
+                    └── OwlAiInternshipTaskApplication.java
+```
 
 
 ---
