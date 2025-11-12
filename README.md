@@ -101,8 +101,8 @@ POST	/api/users	Create a new user
 PUT	/api/users/{id}	Update user details
 DELETE	/api/users/{id}	Delete user by ID
 ## 📤 Example JSON Requests
-## ➕ Create User (POST)
 ```
+## ➕ Create User (POST)
 {
   "firstName": "Akash",
   "lastName": "Shetty",
@@ -165,19 +165,19 @@ Validate JSON output and HTTP status codes.
 
 ## 🧠 Highlights
 
-### 🧩 Followed 3-tier architecture (Controller → Service → Repository)
+#### 🧩 Followed 3-tier architecture (Controller → Service → Repository)
 
-### 🧾 Implemented DTO pattern for clean data handling
+#### 🧾 Implemented DTO pattern for clean data handling
 
-### ⚙️ Custom Global Exception Handling
+#### ⚙️ Custom Global Exception Handling
 
-### 🔄 Transactional service methods ensure consistency
+#### 🔄 Transactional service methods ensure consistency
 
-### 🧑‍💻 Validation with annotations (@NotBlank, @Email, @Size)
+#### 🧑‍💻 Validation with annotations (@NotBlank, @Email, @Size)
 
-### ⏱️ Automatic timestamps via @PrePersist and @PreUpdate
+#### ⏱️ Automatic timestamps via @PrePersist and @PreUpdate
 
-### 📡 Proper use of ResponseEntity and status codes
+#### 📡 Proper use of ResponseEntity and status codes
 
 
 
